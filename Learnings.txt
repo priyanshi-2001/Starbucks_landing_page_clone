@@ -25,3 +25,11 @@ advantage is that we can reuse them again in our code so its really easy to read
 variables declared inside :root can be used anywhere 
 variables declared inside particular class or tag name will be limited to use in that scope only
 For accessing them we use var()
+
+box-sizing:border-box;
+it allows to include a box's padding and margin inside its total width and height so that the order is not disturbed
+
+line-height property
+
+margin:5px 0;    5px for top and bottom and 0 for left and right
+
