@@ -33,3 +33,5 @@ line-height property
 
 margin:5px 0;    5px for top and bottom and 0 for left and right
 
+difference between section,article and div tag and when to use which semantic tag
+
