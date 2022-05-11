@@ -85,6 +85,10 @@ align-items: center;
 .navbar-rightside li:nth-child(2){
 margin:0 5px;
 }
+.center-footer{
+    align-items: center;
+    margin:auto;
+}
 .btn{
     cursor:pointer;
     border-radius:50px;
@@ -105,9 +109,79 @@ margin:0 5px;
     border-color:#000;
     color:#000;
 }
-.btn-outline-dark:hover{
+.btn-outline-dark:hover,.btn-light-outline:hover{
     background-color: rgba(0,0,0,0.06);
 }
 .btn-dark:hover{
     background-color: #333;
 }
+/*background-colors*/
+.bg-primary {
+    background-color:#BAF0D9;
+  }
+/* text-styles css*/
+.text-xl{
+    font-size: 50px;
+    font-weight:600;
+    margin-bottom: 20px;
+}
+.text-md {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  /*box styling*/
+
+  .box{
+  margin-right:35px;
+  margin-left: 35px;
+  margin-top:30px;
+  margin-bottom: 30px;
+  }
+.box-text{
+    max-width:500px;
+    text-align:center;
+    justify-self:center;
+    margin:0 auto;
+    padding:20px 0;
+}
+.box-text .btn{
+   margin-top:20px;
+}
+
+.grid-col-2{
+    display:grid;
+    
+    align-items: center;
+    justify-content:space-between;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.grid-reversed :first-child {
+    order: 2;
+  }
+
+  .social{
+      display:flex;
+      margin:20px 0;
+      align-items: center;
+      padding-left:2rem;
+  }
+  .social img{
+      height:30px;
+      width:30px;
+     
+  }
+  .social a {
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  .divider {
+    width: 95%;
+    height: 1px;
+    background-color: #ccc;
+    margin: 40px auto;
+  }
+  
+  
